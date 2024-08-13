@@ -1,34 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Social links profile</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-item">
+        <div class="image-container">
+          <img
+            class="avatar-image"
+            src="/assets/images/avatar-jessica.jpeg"
+            alt="avatar"
+            width="64"
+            height="64"
+          />
+        </div>
+        <div class="user-info-container">
+          <h1 class="user-name">Jessica Randall</h1>
+          <p class="user-location">London, United Kingdom</p>
+          <p class="user-position">"Front-end developer and avid reader."</p>
+        </div>
+        <!-- <div class="social-container"> -->
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a
+              href="https://github.com/olegtremba1234"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              >GitHub</a
+            >
+          </li>
+          <li class="social-list-item">
+            <a
+              href="https://www.frontendmentor.io/profile/olegtremba1234"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              >Frontend Mentor</a
+            >
+          </li>
+          <li class="social-list-item">
+            <a
+              href="https://www.linkedin.com/in/oleg-tremba/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="social-list-item">
+            <a
+              href="https://x.com/?lang=uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              >Twitter</a
+            >
+          </li>
+          <li class="social-list-item">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+        <!-- </div> -->
+      </div>
+    </div>
+  </body>
 </html>
